@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    display: flex;  
+    padding: 20px;
+    align-items: center;    
+    z-index: 10;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+}
+
+.top{
+    display: flex;
+    justify-items: end;
+    background-color: transparent;
+    list-style-type: none;
+}
+
+.top li{
+    text-decoration: none;
+    color: white;
+}
+.listas{
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.contratar button{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: auto;
+    padding: 0.72rem;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid;
+    background-color: transparent;
+}
+
